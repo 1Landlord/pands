@@ -17,7 +17,7 @@ body{
 	margin: 7em auto;
 	padding: 5px;
 	width: 38em;
-	position: relative; 
+	position: relative;
 	background: #2D3A4B;
 }
 /*Блок лого*/
@@ -30,7 +30,7 @@ body{
 	top: 30px;
 	padding: 5px;
 	color: #fff;
-	box-shadow: 3px 5px 12px #232323; 
+	box-shadow: 3px 5px 12px #232323;
 	opacity: .9;
 }
 .logo h1 {
@@ -43,26 +43,26 @@ body{
 }
 nav ul {
     list-style: none;
-    padding: 0px; 
+    padding: 0px;
     display: block;
-    clear: right; 
-    padding: 30px 0 0 11px; 
+    clear: right;
+    padding: 30px 0 0 11px;
     height: 23px;
 }
 nav ul li {
-    display: inline; 
+    display: inline;
     padding: 0px 10px 5px 10px;
-    height: 23px; 
+    height: 23px;
     border-right: 1px solid #ccc;
 }
 nav ul li:last-child {
 	border-right: none; /*Убираем черту в конце меню*/
 }
 nav ul li a {
-    color: #dcdcdc; 
+    color: #dcdcdc;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 12px; 
+    font-size: 12px;
     font-weight: 300;
 }
 nav ul li a:hover {
@@ -91,7 +91,7 @@ nav ul li a:active{
     left: -30px;
     background-color: #fff;
     color: #2D3A4B;
-    padding: 30px 0; 
+    padding: 30px 0;
 	box-shadow: 3px 5px 12px #232323;
 }
 .centr{
@@ -131,7 +131,7 @@ nav ul li a:active{
 	left: 50px;
 	background-color: #fff;
 	color: #2D3A4B;
-	padding-top: 30px; 
+	padding-top: 30px;
 	box-shadow: 3px 5px 12px #232323;
 	z-index: 1;
 }
@@ -165,7 +165,7 @@ nav ul li a:active{
 	left: 50px;
 	background-color: #fff;
 	color: #2D3A4B;
-	padding-top: 30px; 
+	padding-top: 30px;
 	box-shadow: 3px 5px 12px #232323;
 	z-index: 1;
 }
@@ -177,17 +177,17 @@ nav ul li a:active{
 	right: -20px;
 	background: url(img/pandas.jpg) no-repeat;
 	background-size: cover;
-	box-shadow: 3px 5px 12px #232323;
+	box-shadow: 3px 5px 12px hsl(0, 0%, 13%);
 }
 
 footer{
 	color: #fff;
-	box-shadow: 3px 5px 12px #232323; 
-	background-color: #4A5863;
+	box-shadow: 3px 5px 12px hsl(0, 0%, 13%);
+	background-color: hsl(206, 14%, 33%);
 	position: absolute;
 	left: -30px;
 	bottom: -30px;
-	width: 340px; 
+	width: 340px;
 	height: 60px;
 	opacity: .9;
 	padding-top: 20px;
